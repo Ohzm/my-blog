@@ -39,4 +39,3 @@ jobs:
           publish_dir: ./public
           publish_branch: main
           external_repository: Ohzm/ohzm.github.io
-          clean: true
