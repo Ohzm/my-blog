@@ -10,8 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
+      - name: Checkout source code (with submodules)
         uses: actions/checkout@v3
+        with:
+          submodules: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
