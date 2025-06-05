@@ -32,7 +32,9 @@ jobs:
         run: npm install
 
       - name: Generate static files
-        run: npx hexo clean && npx hexo generate
+        run: |
+          npx hexo clean
+          npx hexo generate
 
       - name: Create .nojekyll file
         run: echo "" > public/.nojekyll

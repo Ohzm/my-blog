@@ -96,11 +96,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-# deploy:
-#  type: git
-#  repo: https://github.com/Ohzm/ohzm.github.io.git
-#  branch: main
+deploy:
+  type: git
+  repo: https://github.com/Ohzm/ohzm.github.io.git
+  branch: main
