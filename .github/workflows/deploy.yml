@@ -31,6 +31,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install Hexo CLI
+        run: npm install -g hexo-cli
+
       - name: Generate static files
         run: |
           npx hexo clean
