@@ -27,36 +27,30 @@ cd c:/my-blog
 
 ### 2. 新建一篇博客文章
 
-npx hexo n "我的第一篇博客"
-
+npx hexo n "我的第一篇博客"  
 成功后会创建一个文件，如：c:/my-blog/source/\_posts/我的第一篇博客.md
 
 ### 3. 编写博客内容
 
 打开该 .md 文件，例如用 VS Code：
-code source/\_posts/我的第一篇博客.md
-
+code source/\_posts/我的第一篇博客.md  
 在其中填写 Markdown 内容后，保存关闭
 
 ### 4. 预览博客效果（可选）
 
-npx hexo clean
-
-npx hexo g
-
+npx hexo clean  
+npx hexo g  
 npx hexo s
 
 浏览器访问：http://localhost:4000 查看效果
 
 ### 5. 添加变更到 Git 并提交 (my-blog)
 
-git add .
-
-git commit -m "新增：第一篇博客文章"
-
+git add .  
+git commit -m "新增：第一篇博客文章"  
 git push orign main
 
-自动触发 GitHub Actions（部署 public 到 ohzm.github.io
+自动触发 GitHub Actions（部署 public 到 yourname.github.io）
 
 ### 7. 检查部署是否成功
 
@@ -69,8 +63,7 @@ git push orign main
 ### 8. 查看线上博客
 
 打开浏览器访问：
-https://yourname.github.io
-
+https://yourname.github.io  
 你刚写的博客文章应该已经上线啦
 
 ### 安装主题(NexT)
@@ -89,17 +82,14 @@ https://yourname.github.io
 
 4. 安装 NexT 推荐依赖（可选）
 
-   这些依赖增强主题体验，如搜索、标签页支持等：
-
+   这些依赖增强主题体验，如搜索、标签页支持等：  
    npm install hexo-renderer-pug hexo-renderer-stylus --save
 
 5. 本地预览确认主题已生效
    运行以下命令，确认主题加载成功：
 
-   npx hexo clean
-
-   npx hexo generate
-
+   npx hexo clean  
+   npx hexo generate  
    npx hexo server
 
    打开浏览器访问 http://localhost:4000，应该看到 NexT 的默认样式界面
